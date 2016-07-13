@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Inconsolata:pixelsize=19:lcdfilter=lcddefault:hintstyle=hintnone:rgba=rgb:antialias=true:autohint=false";
+static char font[] = "Inconsolata:pixelsize=34:lcdfilter=lcddefault:hintstyle=hintnone:rgba=rgb:antialias=true:autohint=false";
 static int borderpx = 0;
 static char shell[] = "/bin/zsh";
 static char *utmp = NULL;
@@ -86,8 +86,8 @@ static const char *colorname[] = {
 
     [255] = 0,  /* other colors follow */
 
-    "#000000",  /* 256: background */
-    "#fbfbfb",  /* 257: foreground */
+    "#002b36",  /* 256: background */
+    "#839496",  /* 257: foreground */
 };
 
 /**
